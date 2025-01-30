@@ -17,6 +17,8 @@ const Blog = () => {
             <Image
               src="https://www.kindercare.com/areas/kindercare/assets/refresh/img/css/kc_footer-illustration.png"
               alt="Blog Post 1"
+              height={50}
+              width={30}
               className="w-full h-48 object-cover rounded-t-lg mb-4"
             />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
@@ -37,6 +39,8 @@ const Blog = () => {
             <Image
               src="https://www.kindercare.com/areas/kindercare/assets/refresh/img/css/kc_footer-illustration.png"
               alt="Blog Post 2"
+              height={50}
+              width={30}
               className="w-full h-48 object-cover rounded-t-lg mb-4"
             />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
@@ -57,6 +61,8 @@ const Blog = () => {
             <Image
               src="https://www.kindercare.com/areas/kindercare/assets/refresh/img/css/kc_footer-illustration.png"
               alt="Blog Post 3"
+              height={30}
+              width={50}
               className="w-full h-48 object-cover rounded-t-lg mb-4"
             />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">

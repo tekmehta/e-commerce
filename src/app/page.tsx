@@ -1,13 +1,11 @@
 import CategoryList from "@/components/CaategoryList";
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
 import ProductList from "@/components/ProductList";
 import Slider from "@/components/Slider";
 
 const Home = async () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Slider />
       
       <section className="mt-12 m-5">
@@ -25,7 +23,7 @@ const Home = async () => {
         <ProductList />  New section for fresh product listings
       </section>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
