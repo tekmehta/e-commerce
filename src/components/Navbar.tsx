@@ -1,11 +1,14 @@
+"use client"
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import Menu from './Menu'
 import Searchbar from './Searchbar'
 import Navicons from './Navicons'
+import { useCart } from '@/context/CartContext'
 
 function Navbar() {
+    const {getTotalItems} = useCart();
   return (
     <div className="h-14 px-4 py-1 md:px-8 lg:px-16 xl:px-32 2xl:px-52 relative">
         {/* movile screen */}
@@ -24,7 +27,7 @@ function Navbar() {
                     <Link href="/">Deals</Link>
                     <Link href="/blog">Blog</Link>
                     <Link href="/content">Contact</Link>
-                    <Link href="/checkout">Cart(1)</Link>
+                    <Link href="/checkout">Cart({getTotalItems()})</Link>
                 </div>
             </div>
             {/* right */}

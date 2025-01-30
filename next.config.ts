@@ -40,6 +40,30 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "www.kindercare.com"
       },
+      {
+        protocol: "https",
+        hostname: "www.shauryasanadhya.com"
+      },
+      {
+        protocol: "https",
+        hostname: "img.kwcdn.com"
+      },
+      {
+        protocol: "https",
+        hostname: "www.dhresource.com"
+      },
+      {
+        protocol: "https",
+        hostname: "i.pinimg.com"
+      },
+      {
+        protocol: "https",
+        hostname: "hips.hearstapps.com"
+      },
+      {
+        protocol: "https",
+        hostname: "gift-bagz.com"
+      },
     ],
   },
 };
