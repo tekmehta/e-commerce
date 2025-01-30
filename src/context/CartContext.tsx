@@ -1,6 +1,7 @@
 // src/context/CartContext.tsx
 "use client"
 import { Url } from 'next/dist/shared/lib/router/router';
+import { StaticImageData } from 'next/image';
 import React, { createContext, useContext, useState } from 'react';
 
 interface CartItem {
@@ -8,7 +9,7 @@ interface CartItem {
   name: string;
   price: number;
   quantity: number;
-  img : ImageData;
+  img : string[];
 }
 interface CartContextType {
   cartItems: CartItem[];

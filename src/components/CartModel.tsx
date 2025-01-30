@@ -23,7 +23,7 @@ const CartModel = () => {
             {cartItems.map((item) => (
               <div key={item.id} className="flex gap-4">
                 <Image
-                  src={item.img[1]}
+                  src={item.img[0]}
                   alt=""
                   height={50}
                   width={50}
