@@ -73,7 +73,7 @@ const ProductList = () => {
                 alt={product.name}
                 fill
                 sizes="25vw"
-                className="absolute object-none rounded-md"
+                className="absolute object-cover rounded-md"
               />
             </div>
             <div>
