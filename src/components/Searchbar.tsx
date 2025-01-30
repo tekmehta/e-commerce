@@ -20,10 +20,10 @@ function Searchbar() {
 
   return (
     <div>
-        <form action="" className='bg-gray-100 p-2 rounded-md flex gap-3' onSubmit={handleSubmit}>
+        <form action="" className='bg-gray-100 pl-2 pr-2 rounded-md flex gap-3' onSubmit={handleSubmit}>
             <input type="text" name="searchName" id="" placeholder='Seach' className=' w-full bg-transparent outline-none' />
             <button>
-                <Image src="/search.jpg" alt='' width={16} height={16}/>
+                <Image className='pt-1.5' src="/search.jpg" alt='' width={16} height={16}/>
             </button>
         </form>
     </div>

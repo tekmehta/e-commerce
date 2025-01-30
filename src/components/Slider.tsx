@@ -18,8 +18,7 @@ const slides = [
         img: "https://img.ltwebstatic.com/images3_pi/2019/10/14/15710414664fea00e1ed34c224f4f416d87db1b6e6.jpg",
         url: "/",
         bg: "bg-gradient-to-r from-yellow-50 to-pink-50",
-    }
-    ,{
+    },{
         id: 3,
         title: "summer sale collections",
         describe: "Sale! Up to 50% off!",
@@ -32,8 +31,6 @@ const slides = [
 const Slider = () => {
 
     const [currrent, setCurrent] = useState(0)
-
-    // auto change function in 3 sec
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrent((prev) => (prev === slides.length-1 ? 0 : prev +1 ));
@@ -61,7 +58,7 @@ const Slider = () => {
                 </div>
             ))}
         </div>
-        <div className='absolute mb-5 left-1/2 buttom-8 flex gap-4'>
+        <div className='absolute mb-5 py-3 left-1/2 buttom-20 flex gap-8'>
             {slides.map((slide, index)=>(
                 <div 
                     className={`w-3 h-3 rounded-full ring-1 ring-gray-600 cursor-pointer flex items-center justify-center ${currrent === index ? "scale-150" :"" }`} 

@@ -7,9 +7,9 @@ const Menu = () => {
     const [open, setOpen] = useState(false)
   return (
     <div>
-        <Image src="/R.png" alt='' width={24} height={24} onClick={()=>setOpen((prev) => !prev)}/>{
+        <Image className='py-3' src="/R.png" alt='' width={24} height={24} onClick={()=>setOpen((prev) => !prev) }/>{
             open && (
-                <div className="absolute bg-black text-white top-20 left-0 w-full h-[calc(100vh-80px)] flex flex-col items-center justify-center gap-3 text-xl z-10">
+                <div className="absolute bg-black text-white top-14 left-0 w-full h-[calc(100vh-80px)] flex flex-col items-center justify-center gap-3 text-xl z-10">
                     <Link href="/">HomePage</Link>
                     <Link href="/">AboutPAge</Link>
                     <Link href="/">Deals</Link>

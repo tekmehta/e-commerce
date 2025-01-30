@@ -24,6 +24,18 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "static.wixstatic.com"
       },
+      {
+        protocol: "https",
+        hostname: "images.opumo.com"
+      },
+      {
+        protocol: "https",
+        hostname: "ae01.alicdn.com"
+      },
+      {
+        protocol: "https",
+        hostname: "static.vecteezy.com"
+      },
     ],
   },
 };

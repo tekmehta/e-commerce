@@ -7,19 +7,18 @@ import Navicons from './Navicons'
 
 function Navbar() {
   return (
-    <div className="h-20 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 relative">
+    <div className="h-14 px-4 py-1 md:px-8 lg:px-16 xl:px-32 2xl:px-52 relative">
         {/* movile screen */}
         <div className="flex items-center justify-between md:hidden">
-            <Link href="/">MEHTA</Link>
+            <Link className='px-5' href="/">MEHTA</Link>
             <Menu/>
         </div>
         {/* bigger screen */}
-        <div className='hidden md:flex h-20'>
+        <div className='hidden md:flex h-12'>
             {/* left */}
             <div className='w-1/3 xl:w-1/2 flex gap-2 items-center  pr-12'>
                 <Image src="/logo.jpg" alt='' width={40} height={40}></Image>
-                <div className='text-xl tracking-wide'>Mehta</div>
-                <div className='hidden xl:flex gap-4'>
+                <div className='hidden xl:flex gap-4 px-5'>
                     <Link href="/">Home</Link>
                     <Link href="/about">About</Link>
                     <Link href="/">Deals</Link>
